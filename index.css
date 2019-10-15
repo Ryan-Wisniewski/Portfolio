@@ -132,6 +132,15 @@ img:hover{
 /* Last Card */
 .link{
     font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px 0 0 0;
+    padding: 5px;
+}
+
+.link:hover{
+    border: 1px solid white;
+    color: white;
 }
 
 /* Footer */
@@ -179,9 +188,7 @@ footer{
 @media (max-width: 600px) {
     .section{ 
         max-width: 74%;       
-        /* padding: 1rem 2rem;
-        margin: 2rem; */
-
+       
     }
 
     .about{
