@@ -30,7 +30,7 @@ body{
     background-color: #cccccc;
 
     line-height: 1;
-    font-size: 125%;
+    font-size: 62.5%;
     color: black;
 }
 
@@ -44,20 +44,20 @@ img{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 h2{
-    font-size: 1.7rem;
+    font-size: 3.4rem;
     margin: 0 0 1rem 0
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 p{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 a{
@@ -90,12 +90,12 @@ header{
 
 .navbar a{
     padding: 0 .8rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .navbar p{
     padding: 0 .8rem;
-    font-size: .8rem;
+    font-size: 1.6rem;
 }
 /* About section */
 .intro{
