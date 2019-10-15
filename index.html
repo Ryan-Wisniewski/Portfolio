@@ -7,7 +7,8 @@
         <title>Portfolio 1.0</title>
         <link href="./index.css" rel="stylesheet">
     </head>
-    
+
+    <div id='navbar' name='navbar'></div>
     <body>
         <header class='flexRowJoin'>
             <nav class='navbar flexRowNoWrap'>
@@ -22,7 +23,7 @@
         </header>
 
         <main>
-            <div class='intro bg' id='navbar' name='navbar'>
+            <div class='intro bg'>
                 <h2>Welcome to the MADHOUSE</h2>
                 <p>By: Ryan Wisniewski</p>
             </div>
@@ -43,59 +44,81 @@
         <section>
             <div class='project bg' id='project' name='project'>
                 <h2>Projects</h2>
-                <p>During my studies at Lambda ive had the pleasure of finishing a great variety of challenges. Here is my favorite from each month of growth.</p>   
+                <p>During my studies at Lambda ive had the pleasure of finishing a great variety of challenges. Here is my favorite from each month of growth. 
+                    Build weeks take a person/people from each different learning unit, and places individuals into a team. There are three teams from the 
+                    web engineering course, one for marketing, front-end, and back-end. Team-work during theese projects is essential to pass onto to the next
+                    unit.</p>   
             </div>   
-            <div class='flexRowWrap'>
-                <a href='https://split-the-bill.netlify.com/'>
+            <div class='flexRowWrap'>               
                     <div class='section bg flexColumnWrap'>
                         <h3>Early Days with HTML, CSS, and JS</h3>
-                        <img src='./img/auroura.jpeg' alt='project1 img here' />
+                        <a href='https://split-the-bill.netlify.com/'>
+                            <img src='./img/split-the-bill.PNG' alt='project1 img here' />
+                        </a>
                         <!-- maybe -->
                         <!-- During the first day we were introcued to GitHub, in the first month we learned html and css quickly and effiecently.
                         We dove right into the my current favorite language, javascript. With javascript we learned DOM 
                         manipulation.  -->
                         <p>This project is from my first build week; I was responsible for the marketing page design. Our team
                         collbaorated all week to make sure it all fit together. It was a lot of fun to think about the grand scheme of things
-                        as someone who still felt brand new to coding. Build weeks take a person/people from each different learning unit, and 
-                        places individuals into a team. There are three teams from the web engineering course, one for marketing, front-end, 
-                        and back-end.</p>
-                    </div>
-                </a>
-                <a href='https://nasa-photooftheday.herokuapp.com/'>
+                        as someone who still felt brand new to coding. </p>
+                    </div>                              
                     <div class='section bg flexColumnWrap'>
                         <h3>Introduction to React</h3>
-                        <img src='./img/background.jpg' alt='project1 img here' />
+                        <a href='https://nasa-photooftheday.herokuapp.com/'>
+                           <img src='./img/Nasa-POD.PNG' alt='project1 img here' />
+                        </a> 
                         <p>The second month was very interesting. Our class jumped right into the react tree, and we learned how to create components 
                             and pass data through an application with plenty of props drilling! During this unit we learned how to use useState and useEffect
                             to manage the state of an application.</p>
-                    </div>
-                </a>
-                <a href='https://redux-with-puppeis.netlify.com/'>
+                    </div>                              
                     <div class='section bg flexColumnWrap'>
                         <h3>Advanced State Management</h3>
-                        <img src='./img/auroura.jpeg' alt='project1 img here' />
-                        <p>deSCREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEption</p>
-                    </div>
-                </a>
-                <a href='#'>
-                    <div class='section bg flexColumnWrap'>
+                        <a href='https://redux-with-puppeis.netlify.com/'>
+                            <img src='./img/ReduxDogs.PNG' alt='project1 img here' />
+                        </a>
+                        <p>By the third month I had become very comfortable with thte react tree. We learned classes and more advanced way to work with state 
+                            in react! By the end of the month we learned Redux and useContext among other methods to handle state for larger applications. Reducers
+                            and actions were my favorite thing to learn in the program! It was the first time I had to really invision how data passed the through the
+                            application.
+                        </p>
+                    </div>                
+                
+                    <div class='section bg flexColumnWrap'>                       
                         <h3>Learning Node.js and SQL3</h3>
-                        <img src='./img/background.jpg' alt='project1 img here' />
-                        <p>deSCREEEEEEption</p>
-                    </div>
-                </a>
+                        <a href='https://split-the-bill-be.herokuapp.com/'>
+                            <img src='./img/background.jpg' alt='project1 img here' />
+                        </a>
+                        <p>Learning Node and Express was a blast! I loved learning all the logic puzzles and figuring out how they fit together.
+                            This is another build-week project. A team-member and I collaborated all week to deploy our server with postgress.
+                            During this week we learned postgress on the fly for our project! We had a lot of fun building this out.
+                        </p>
+                    </div>               
             </div>
         </section>
 
         <footer class='bg' id='footer'>
-            <p>Forum here.</p>
-            <div>
+            <!-- <div>
+                <div>
+                    <label>Name</label>
+                    <input type='text' />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type='email' />
+                </div>
+                <div>
+                    <label>Question? Comments?</label>
+                    <input type='text' />
+                </div>
+                <button type='submit'>Submit</button>
+            </div>
+            <div> -->
                 <ul>
                     <li>RyanWisniewski39@gmail.com</li>
                     <li>Woodstock, GA</li>
-                    <li>678 520-2428</li>
                 </ul>
-            </div>
+            </div>           
         </footer>
     </body>
 </html>
