@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, button
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+    }
+        
+   
+ol, ul{
+    list-style: none;
+    }
+    
+body{
+    /* for background image */
+    background-image: url(./img/inovation-city.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-color: #cccccc;
+
+    line-height: 1;
+    font-size: 62.5%;
+    color: black;
+}
+
+/* basics */
+img{
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 4px;
+    opacity: .85;
+    z-index: 0;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.7rem;
+    margin: 0 0 1rem 0
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    padding: 2rem 0 0 0;
+}
+
+.bg{
+    background-color: rgb(255, 218, 185, .65);
+    border-radius: 4px;
+}
+
+/* navigation */
+header{
+    position: fixed;
+    background-color: rgb(255, 218, 185);
+    height: 4rem;
+    width: 100%;
+}
+
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a{
+    padding: 0 .8rem;
+    font-size: 1rem;
+}
+
+.navbar p{
+    padding: 0 .8rem;
+    font-size: .8rem;
+}
+/* About section */
+.intro{
+    padding: 1rem 2rem;
+    margin: 6rem 2rem 2rem 2rem;
+}
+
+.about{
+    padding: 1rem 2rem;
+    margin: 2rem;   
+    max-width: 45%;;  
+}
+
+/* Project */
+.project{
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+
+/* Project Cards */
+.section{
+    margin: 2rem .5rem;
+    padding: 1rem 2rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+/* ********FLEXIN******** */
+
+/* Project Card EACH */
+.flexRowWrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Project Card Contents */
+.flexColumnWrap{
+    display: flex;
+    flex-flow: column nowrap;   
+    justify-content: space-around;
+    align-items: center;
+}
+/* Navigation Elements */
+.flexRowJoin{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 6;
+}
+/* Navigation Items */
+.flexRowNoWrap{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
