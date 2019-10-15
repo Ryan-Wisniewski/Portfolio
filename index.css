@@ -107,6 +107,7 @@ header{
     padding: 1rem 2rem;
     margin: 2rem;   
     max-width: 45%;
+    
 }
 
 /* Project */
@@ -117,10 +118,20 @@ header{
 
 /* Project Cards */
 .section{
-    margin: 2rem .5rem;
+    margin: 1.5rem .5rem;
     padding: 1rem 2rem;
     width: 30rem;
     height: 35rem;
+}
+/* Image in Card */
+img:hover{
+    transition: transform 0.7s;
+    transform: scale(1.03);
+}
+
+/* Last Card */
+.link{
+    font-size: 1.5rem;
 }
 
 /* Footer */
@@ -164,3 +175,17 @@ footer{
     justify-content: flex-start;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .section{ 
+        max-width: 74%;       
+        /* padding: 1rem 2rem;
+        margin: 2rem; */
+
+    }
+
+    .about{
+       max-width: 100%; 
+    }    
+}
+
