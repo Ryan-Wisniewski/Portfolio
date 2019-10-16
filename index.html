@@ -6,17 +6,21 @@
 
         <title>Portfolio 1.0</title>
         <link href="./index.css" rel="stylesheet">
+        <script defer="defer" src="index.js"></script>
     </head>
 
     <div id='navbar' name='navbar'></div>
     <body>
-        <header class='flexRowJoin'>
-            <nav class='navbar flexRowNoWrap'>
-                <a href='#navbar'>Home</a>
-                <a href='#about'>About</a>
-                <a href='#project'>Projects</a>
-                <a href='#footer'>Contact</a>
-            </nav>
+        <header class='flexRowJoin nav'>
+            <div class='dropdown'>
+                <div class="dropdown-button"><img class ="img-class" src="img/menu.png" alt="menu-img"></div>
+                <nav class='navbar flexRowNoWrap dropdown-items hidden'>
+                    <a class="dropdown-links" href='#navbar'>Home</a>
+                    <a class="dropdown-links" href='#about'>About</a>
+                    <a class="dropdown-links" href='#project'>Projects</a>
+                    <a class="dropdown-links" href='#footer'>Contact</a>
+                </nav>
+            </div>
             <div class='navbar flexRowNoWrap' >
                 <p>RyanWisniewski39@gmail.com</p>
             </div>
@@ -44,7 +48,7 @@
         <section>
             <div class='project bg' id='project' name='project'>
                 <h2>Projects</h2>
-                <p>During my studies at Lambda ive had the pleasure of finishing a great variety of challenges. Here is my favorite from each month of growth. 
+                <p>During my studies at Lambda I've had the pleasure of finishing a great variety of challenges. Here is my favorite from each month of growth. 
                     Build weeks take a person/people from each different learning unit, and places individuals into a team. There are three teams from the 
                     web engineering course, one for marketing, front-end, and back-end. Team-work during theese projects is essential to pass onto to the next
                     unit.</p>   
@@ -92,7 +96,7 @@
                         <p>I loved Learning Node and Express, because back end is all the logic puzzles. This is another build-week project. A team-member and I 
                             collaborated all week to deploy our server with postgress. During this week we learned postgress on the fly for our project! 
                         </p>
-                        <a href='https://github.com/Split-The-Bill-Build-Week/Back-End' class='link'>Check out the repository here.</a>
+                        <a href='https://github.com/Split-The-Bill-Build-Week/Back-End' class='link'>Check out the repository here</a>
                     </div>               
             </div>
         </section>
