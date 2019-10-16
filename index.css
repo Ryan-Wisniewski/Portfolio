@@ -189,14 +189,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .section {
-    max-width: 74%;
-  }
-
-  .about {
-    max-width: 100%;
-  }
-
   .nav {
     display: flex;
     flex-flow: row nowrap;
@@ -227,7 +219,7 @@ footer {
     text-decoration: none;
     position: absolute;
     width: 8%;
-    margin: 0.5rem 0 0 2rem;
+    margin: 0.5rem 0 0 2.2rem;
   }
   .nav .dropdown .dropdown-items a {
     text-decoration: none;
@@ -245,6 +237,35 @@ footer {
   }
   .nav .dropdown .hidden {
     display: none;
+  }
+
+  body {
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .about {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  footer {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=index.css.map */

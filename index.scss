@@ -199,13 +199,7 @@ footer{
     justify-content: $justify;
     align-items: $align;
 }
-@media (max-width: 800px){
-    .section{ 
-        max-width: 74%;             
-    }
-    .about{
-       max-width: 100%; 
-    }   
+@media (max-width: 800px){ 
     .nav{   
         @include flexBox(row nowrap, space-between, center);
         width: 100%;
@@ -233,7 +227,7 @@ footer{
                 text-decoration: none;
                 position: absolute;
                 width:8%;
-                margin: .5rem 0 0 2rem; 
+                margin: .5rem 0 0 2.2rem; 
 
                 a{
                     text-decoration: none;
@@ -255,6 +249,32 @@ footer{
             }
         }
     }
+    body{
+        max-width: 800px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section{ 
+        max-width: 70%;
+        height: auto;           
+    }
+    .about{
+       max-width: 100%; 
+    }
+    img{
+        max-width: 100%;
+    } 
+    footer{
+        max-width: 100%;
+    } 
 }
+
 
 /*# sourceMappingURL=index.css.map */
