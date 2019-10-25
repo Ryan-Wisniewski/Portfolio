@@ -70,7 +70,7 @@ main{
 }
 
 .bg{
-    background-color: rgb(170, 170, 170, 0.75);;
+    background-color: rgb(170, 170, 170, 0.75);
     border-radius: 4px;
 }
 
@@ -144,9 +144,16 @@ header{
     height: 35rem;
 }
 /* Image in Card */
+.img{
+    -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+}
+
 img:hover{
-    transition: transform 0.7s;
-    transform: scale(1.03);
+    // -webkit-transition: transform 1.5s;
+    transform: scale(1.18);
 }
 
 /* Last Card */
@@ -168,8 +175,15 @@ footer{
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
-    padding: 20px;
-    font-size: 1rem;
+
+    h2{
+        margin-left: 1rem;
+    }
+
+    li{
+        padding: .5rem 0 1rem 1rem;
+        font-size: 1.15rem;
+    }
 }
 
 /* ********FLEXIN******** */
@@ -272,6 +286,10 @@ footer{
         }
     }
 
+    .bg{
+        background-color: rgb(170, 170, 170, 0.95);
+    }
+
     body{
         max-width: 800px;
         margin: 0;
@@ -334,12 +352,17 @@ footer{
         max-width: 100%;
         margin: 15px 0 10px 0;
     } 
+
+    img:hover{
+        transform: scale(1.15);
+    }
+
     footer{
         max-width: 100%;
         font-size: 1rem;
 
         li{
-            margin: 5px 0;
+            margin: 1rem 0;
         }
     } 
 }
