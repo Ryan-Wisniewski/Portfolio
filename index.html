@@ -4,28 +4,29 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Portfolio 1.0</title>
+        
         <link href="./index.css" rel="stylesheet">
         <script defer="defer" src="index.js"></script>
+        <title>Portfolio 1.0</title>
     </head>
 
     <div id='navbar' name='navbar'></div>
-    
-    <header class='flexRowJoin nav'>
-        <div class='dropdown'>
-            <div class="dropdown-button"><img class ="img-class" src="img/menu.png" alt="menu-img"></div>
-            <nav class='navbar flexRowNoWrap dropdown-items hidden'>
-                <a class="dropdown-links" href='#navbar'>Home</a>
-                <a class="dropdown-links" href='#about'>About</a>
-                <a class="dropdown-links" href='#project'>Projects</a>
-                <a class="dropdown-links" href='#footer'>Contact</a>
-            </nav>
-        </div>
-        <div class='navbar flexRowNoWrap' >
-            <p>RyanWisniewski39@gmail.com</p>
-        </div>
-    </header>
     <body>
+        <header class='flexRowJoin nav'>
+            <div class='dropdown'>
+                <div class="dropdown-button"><img class ="img-class" src="img/menu.png" alt="menu-img"></div>
+                <nav class='navbar flexRowNoWrap dropdown-items hidden'>
+                    <a class="dropdown-links" href='#navbar'>Home</a>
+                    <a class="dropdown-links" href='#about'>About</a>
+                    <a class="dropdown-links" href='#project'>Projects</a>
+                    <a class="dropdown-links" href='#footer'>Contact</a>
+                </nav>
+            </div>
+            <div class='navbar flexRowNoWrap' >
+                <p>RyanWisniewski39@gmail.com</p>
+            </div>
+        </header>
+        <div></div>
         <main>
             <div class='intro bg'>
                 <h2>Welcome to the MADHOUSE</h2>
@@ -33,7 +34,8 @@
             </div>
         </main>
 
-        <section class='about bg' id='about' name='about'>
+        <section class='about bg'>
+            <span id='about' name='about'> &nbsp; </span>
             <h2>About what I do.</h2>
             <p>
             Using html, css, and javascript, I am able to create seemless user-interface that hopefullly feels intuitive 
@@ -46,9 +48,11 @@
         </section>
 
         <section>
-            <div class='project bg' id='project' name='project'>
+            
+            <div class='project bg'>
+                <span id='project' name='project'> &nbsp; </span>
                 <h2>Projects</h2>
-                <p>During my studies at Lambda I've had the pleasure of finishing a great variety of challenges. Here is my favorite from each month of growth.
+                <p>During my studies at Lambda I've had the pleasure of finishing a great variety of challenges. Here are my favorite from each month of growth.
                      A few projects provided are from a build week. Build weeks take a person/people from each different learning unit, and places individuals 
                      into a team. There are three teams from the web engineering course, one for marketing, front-end, and back-end. Team-work during theese projects 
                      is essential to pass onto to the next unit.</p>   
@@ -100,7 +104,8 @@
             </div>
         </section>
 
-        <footer class='bg' id='footer'>
+        <footer class='bg'>
+            <span id='footer' name='footer'> &nbsp; </span>
             <!-- <div>
                 <div>
                     <label>Name</label>
